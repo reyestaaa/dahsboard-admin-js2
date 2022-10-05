@@ -1,0 +1,60 @@
+.container-dashboard {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.body-parent-1 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  border: 1px solid black;
+  /* background-color: grey; */
+}
+
+.body-child-1 {
+  width: 80%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+.body-child-2 {
+  width: 20%;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.body-speedometer {
+  width: 100%;
+  height: 260px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  padding-top: 1.5em;
+  /* align-items: center; */
+  border: 1px solid black;
+  /* background-color: yellow; */
+}
+
+.body-taskdistribution {
+  width: 100%;
+  height: calc(100% - 260px);
+  border: 1px solid black;
+  /* background-color: purple; */
+}
+
+.body-calendar {
+  width: 100%;
+  height: 70%;
+  border: 1px solid black;
+  /* background-color: blue; */
+}
+
+.body-list-user {
+  width: 100%;
+  height: 30%;
+  border: 1px solid black;
+  /* background-color: black; */
+}

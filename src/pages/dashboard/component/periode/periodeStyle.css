@@ -1,0 +1,9 @@
+.periode {
+    margin: 0 1.2em;
+}
+
+.img-calendar {
+    display: block;
+    margin: 0 auto;
+    max-width: 85%;
+}
